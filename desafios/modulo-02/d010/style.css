@@ -158,17 +158,25 @@ aside > h3 {
 }
 
 aside > p {
-    padding: 10px;
+    padding-top: 10px;
     text-indent: 30px;
     line-height: 1.8em;
 }
 
 ul {
     list-style: inside;
-    text-indent: 30px;
     columns: 2;
+    padding: 10px;
+    text-indent: 250px;
 }
 
+div#coluna2 {
+    text-indent: -10px;
+}
+
+abbr {
+    text-decoration: none;
+}
 
 footer {
     text-align: center;
